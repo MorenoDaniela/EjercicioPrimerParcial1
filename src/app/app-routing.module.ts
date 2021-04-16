@@ -15,7 +15,7 @@ const  routes:  Routes  = [
 
   children: [
       // [...]
-      { path:  'busquedapelicula',component:  BusquedaPeliculaComponent},
+      { path: 'busquedapelicula',component:  BusquedaPeliculaComponent},
       { path:  'tablapelicula', component:  TablaPeliculaComponent },
       { path:  'detallepelicula', component:  DetallePeliculaComponent },
       { path:  'bienvenido', component:  BienvenidoComponent },
@@ -23,11 +23,8 @@ const  routes:  Routes  = [
   ]
   }
   ];
-// const routes: Routes = [
-//   {path:'',redirectTo:'busqueda',pathMatch:'full'},
-//   {path:'bienvenido',component:BienvenidoComponent},
-//   {path:'busqueda',component:BusquedaPeliculaComponent}
-// ];
+
+
 
 @NgModule({
   declarations: [],
